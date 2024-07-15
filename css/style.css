@@ -1,0 +1,185 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color: #f8f9fa;
+    height: 703px;
+}
+.boto{
+    background-color: #183153;
+    color: white;
+    border-radius: 20px;
+    padding: 8px;
+}
+.home{
+    padding-top: 45px;
+}
+.home h2{
+    color: #172ab5;
+    font-size: 2.5rem;
+}
+.home h6{
+    color: #9e9e9c;
+    letter-spacing: 1px;
+}
+@media only screen and (max-width:768px){
+    .header{
+        height: auto;
+    }
+    .home{
+        padding-top: 100px;
+        text-align: center;
+    }
+    .home h2{
+        color: #172ab5;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+/* ----------------------end of header------------------------------ */
+.short{
+    height: 355px;
+    background-image: linear-gradient(to right, #3334ef,#971ce3);
+}
+.shorty{
+    padding-top: 53px;
+}
+.short h3{
+
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-size: 30px;
+
+}
+@media only screen and (max-width:768px){
+    .short{
+        height: auto;
+    } 
+    .short h3{
+
+        
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        font-size: 18px;
+    
+    }
+    .shorty img{
+        width: 100px;
+        padding-bottom: 20px;
+    }
+}
+/*----------------------end of short---------------------------*/
+.moo{
+    background-color: #f8f9fa;
+    height: 600px;
+}
+
+.moo i{
+    font-size: 40px;
+    text-align: center;
+    color: #294a67;
+}
+.chilout{
+    padding-top: 110px;
+}
+@media only screen and (max-width:768px){
+  .moo{
+    height: auto;
+  }
+  .moo img{
+    padding-top: 20px;
+  }
+}
+/*----------------------end of moo---------------------------*/
+.secSec{
+    background-color: #f8f9fa;
+    height: 600px;
+    
+
+}
+.omar{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+.essam{
+    margin: auto;
+}
+.essam h2{
+    font-size: 3.5rem;
+}
+.essam p{
+    font-size: 17px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    color: black;
+}
+.dahab{
+    padding-top: 100px;
+
+}
+@media only screen and (max-width:768px){
+    .secSec{
+        height: auto;
+    }
+    .essam h2{
+        font-size: 3rem;
+    }
+    .essam p{
+        font-size: 17px;
+    }
+    .dahab{
+        padding-bottom: 20px;
+    }
+  }
+/*------------------end of secSec----------------*/
+
+.sheka{
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.sheko{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.sheko h2{
+    font-size: 2.5rem;
+}
+.sheko button{
+    color: white;
+    
+}
+/*----------------------end of sheka----------------------*/
+.lasty{
+    height: 355px;
+    background-image: linear-gradient(to right, #3334ef,#971ce3);
+    padding-top: 30px;
+}
+.kolo{
+   padding-top: 100px;
+}
+/*---------------------end of lasty ---------------------*/
+.footy{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+}
+.footy h5{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.footy h5 a{
+    color: bisque;
+}
