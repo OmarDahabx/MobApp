@@ -2,6 +2,15 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+    background-color: black;
+}
+img{
+    max-width: 100%;
+}
+nav{
+    max-width: 100%;
+}
 .header{
     background-color: #f8f9fa;
     height: 703px;
@@ -93,11 +102,12 @@
   }
 }
 /*----------------------end of moo---------------------------*/
+.motyaba{
+    max-width: 100%;
+}
 .secSec{
     background-color: #f8f9fa;
     height: 600px;
-    
-
 }
 .omar{
     border-radius: 50%;
